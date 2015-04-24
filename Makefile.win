@@ -1,0 +1,102 @@
+# Project: Jungle_chess
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o GameBoard.o animal.o landscape.o land.o river.o trap.o den.o Game.o GameController.o player.o item.o tiger.o elephant.o rat.o direction.o lion.o startInterface.o settingInterface.o playerSettingInterface.o GameInterface.o GameStartInterface.o GameFinishInterface.o animalData.o animalDataSet.o $(RES)
+LINKOBJ  = main.o GameBoard.o animal.o landscape.o land.o river.o trap.o den.o Game.o GameController.o player.o item.o tiger.o elephant.o rat.o direction.o lion.o startInterface.o settingInterface.o playerSettingInterface.o GameInterface.o GameStartInterface.o GameFinishInterface.o animalData.o animalDataSet.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = Jungle_chess.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Jungle_chess.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Jungle_chess.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+GameBoard.o: GameBoard.cpp
+	$(CPP) -c GameBoard.cpp -o GameBoard.o $(CXXFLAGS)
+
+animal.o: animal.cpp
+	$(CPP) -c animal.cpp -o animal.o $(CXXFLAGS)
+
+landscape.o: landscape.cpp
+	$(CPP) -c landscape.cpp -o landscape.o $(CXXFLAGS)
+
+land.o: land.cpp
+	$(CPP) -c land.cpp -o land.o $(CXXFLAGS)
+
+river.o: river.cpp
+	$(CPP) -c river.cpp -o river.o $(CXXFLAGS)
+
+trap.o: trap.cpp
+	$(CPP) -c trap.cpp -o trap.o $(CXXFLAGS)
+
+den.o: den.cpp
+	$(CPP) -c den.cpp -o den.o $(CXXFLAGS)
+
+Game.o: Game.cpp
+	$(CPP) -c Game.cpp -o Game.o $(CXXFLAGS)
+
+GameController.o: GameController.cpp
+	$(CPP) -c GameController.cpp -o GameController.o $(CXXFLAGS)
+
+player.o: player.cpp
+	$(CPP) -c player.cpp -o player.o $(CXXFLAGS)
+
+item.o: item.cpp
+	$(CPP) -c item.cpp -o item.o $(CXXFLAGS)
+
+tiger.o: tiger.cpp
+	$(CPP) -c tiger.cpp -o tiger.o $(CXXFLAGS)
+
+elephant.o: elephant.cpp
+	$(CPP) -c elephant.cpp -o elephant.o $(CXXFLAGS)
+
+rat.o: rat.cpp
+	$(CPP) -c rat.cpp -o rat.o $(CXXFLAGS)
+
+direction.o: direction.cpp
+	$(CPP) -c direction.cpp -o direction.o $(CXXFLAGS)
+
+lion.o: lion.cpp
+	$(CPP) -c lion.cpp -o lion.o $(CXXFLAGS)
+
+startInterface.o: startInterface.cpp
+	$(CPP) -c startInterface.cpp -o startInterface.o $(CXXFLAGS)
+
+settingInterface.o: settingInterface.cpp
+	$(CPP) -c settingInterface.cpp -o settingInterface.o $(CXXFLAGS)
+
+playerSettingInterface.o: playerSettingInterface.cpp
+	$(CPP) -c playerSettingInterface.cpp -o playerSettingInterface.o $(CXXFLAGS)
+
+GameInterface.o: GameInterface.cpp
+	$(CPP) -c GameInterface.cpp -o GameInterface.o $(CXXFLAGS)
+
+GameStartInterface.o: GameStartInterface.cpp
+	$(CPP) -c GameStartInterface.cpp -o GameStartInterface.o $(CXXFLAGS)
+
+GameFinishInterface.o: GameFinishInterface.cpp
+	$(CPP) -c GameFinishInterface.cpp -o GameFinishInterface.o $(CXXFLAGS)
+
+animalData.o: animalData.cpp
+	$(CPP) -c animalData.cpp -o animalData.o $(CXXFLAGS)
+
+animalDataSet.o: animalDataSet.cpp
+	$(CPP) -c animalDataSet.cpp -o animalDataSet.o $(CXXFLAGS)

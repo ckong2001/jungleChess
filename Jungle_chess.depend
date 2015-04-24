@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1427891628 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\animal.cpp
+	"item.h"
+	"animal.h"
+
+1427871586 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\item.h
+	<iostream>
+	<string>
+	<string.h>
+	<sstream>
+
+1427890652 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\animal.h
+	<iostream>
+	<string>
+	"GameBoard.h"
+	"item.h"
+	"ownable.h"
+	"AnimalGeneralMovement.h"
+
+1427377638 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\gameboard.h
+	"landscape.h"
+	"land.h"
+	"river.h"
+	"den.h"
+	<windows.h>
+
+1427891513 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\landscape.h
+	"item.h"
+
+1426756096 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\land.h
+	"landscape.h"
+
+1427025916 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\river.h
+	"landscape.h"
+	"animal.h"
+	"GameBoard.h"
+
+1427874708 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\den.h
+	"item.h"
+	"landscape.h"
+	"Game.h"
+	"ownable.h"
+
+1427382600 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\game.h
+
+1427891628 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\ownable.h
+	<iostream>
+	"movementInterface.h"
+
+1427889830 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\movementinterface.h
+	<iostream>
+	"item.h"
+	"ownable.h"
+
+1427879254 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\animalgeneralmovement.h
+	"movementInterface.h"
+
+1427879840 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\animalgeneralmovement.cpp
+	"AnimalGeneralMovement.h"
+	"animal.h"
+
+1426492826 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\board.cpp
+
+1427874708 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\den.cpp
+	"den.h"
+	"animal.h"
+
+1427085514 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\direction.cpp
+	"direction.h"
+
+1427025020 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\direction.h
+	<iostream>
+
+1427127526 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\elephant.cpp
+	"elephant.h"
+	<typeinfo>
+
+1427098982 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\elephant.h
+	"animal.h"
+
+1427874722 source:c:\users\user\desktop\jungle_ass\jungle_assignv0.05\game.cpp
+	"Game.h"
+	"GameController.h"
+
+1427382122 c:\users\user\desktop\jungle_ass\jungle_assignv0.05\gamecontroller.h
+	"GameBoard.h"
+	"direction.h"
+

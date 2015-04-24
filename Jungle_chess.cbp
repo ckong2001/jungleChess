@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Jungle_chess" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Jungle_chess" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="AnimalGeneralMovement.cpp" />
+		<Unit filename="AnimalGeneralMovement.h" />
+		<Unit filename="Board.cpp" />
+		<Unit filename="Board.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameBoard.cpp" />
+		<Unit filename="GameBoard.h" />
+		<Unit filename="GameController.cpp" />
+		<Unit filename="GameController.h" />
+		<Unit filename="Header.h" />
+		<Unit filename="JumpableMovement.cpp" />
+		<Unit filename="JumpableMovement.h" />
+		<Unit filename="RiverMovement.cpp" />
+		<Unit filename="RiverMovement.h" />
+		<Unit filename="animal.cpp" />
+		<Unit filename="animal.h" />
+		<Unit filename="animalHeader.h" />
+		<Unit filename="den.cpp" />
+		<Unit filename="den.h" />
+		<Unit filename="direction.cpp" />
+		<Unit filename="direction.h" />
+		<Unit filename="elephant.cpp" />
+		<Unit filename="elephant.h" />
+		<Unit filename="item.cpp" />
+		<Unit filename="item.h" />
+		<Unit filename="land.cpp" />
+		<Unit filename="land.h" />
+		<Unit filename="landMovement.h" />
+		<Unit filename="landscape.cpp" />
+		<Unit filename="landscape.h" />
+		<Unit filename="lion.cpp" />
+		<Unit filename="lion.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="movementInterface.h" />
+		<Unit filename="ownable.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="rat.cpp" />
+		<Unit filename="rat.h" />
+		<Unit filename="river.cpp" />
+		<Unit filename="river.h" />
+		<Unit filename="tiger.cpp" />
+		<Unit filename="tiger.h" />
+		<Unit filename="trap.cpp" />
+		<Unit filename="trap.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
